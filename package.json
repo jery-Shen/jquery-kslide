@@ -7,7 +7,7 @@
   "keywords"    : ["scrollbar", "scroll"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeri-Shen/jquery-kslide.git"
+    "url": "https://github.com/jery-Shen/jquery-kslide.git"
   },
   "dependencies" : {
     "jquery" : ">= 1.7"
