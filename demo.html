@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>kslide demo</title>
+	<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.kslide.min.js"></script>
+	<style type="text/css">
+		#kslide{
+			height: 350px;
+		}
+		.kslide-wrap{
+			height: 300px;
+			overflow: hidden;
+		}
+		.box1, .box2, .box3{
+			height: 300px;
+		}
+		.box1{
+			background: red;
+		}
+
+		.box2{
+			background: green;
+		}
+
+		.box3{
+			background: yellow;
+		}
+	</style>
+</head>
+<body>
+	<div id="kslide">
+			<div class="kslide-wrap">
+				<div class="kslide-item box1"></div>
+				<div class="kslide-item box2"></div>
+				<div class="kslide-item box3"></div>
+			</div>
+		</div>
+		
+	<script type="text/javascript">
+		$('#kslide').kslide({
+			width:500,
+		})
+	</script>
+</body>
+</html>
